@@ -7,9 +7,9 @@ const Picture = ({ data }) => {
         <div className="imgDiv">
           <img src={data.src.large} alt="ozge" />
         </div>
-        <div className="infoPhoto">
+        {/* <div className="infoPhoto">
           <p>{data.photographer}</p>
-        </div>
+        </div> */}
       </div>
     </div>
   );

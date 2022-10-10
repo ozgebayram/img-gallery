@@ -5,7 +5,7 @@ import Picture from '../components/Picture';
 const Homepage=()=> {
   return (
 	<div >
-		<h1>İmage Gallery</h1>
+		<h1>Autumn Picture Gallery</h1>
 		<div>
 			{data.map((i)=>{
 				return <Picture data={i}/>
